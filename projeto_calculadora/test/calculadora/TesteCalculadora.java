@@ -12,5 +12,18 @@ public class TesteCalculadora {
 		calc.calc(8, 2, "/");  // esperado: 4
 		calc.calc(8, 0, "/");  // esperado: divisao por zero
 		calc.calc(5, 5, "x");  // esperado: operacao invalida
+	
+	
+	try {
+		System.out.println(calc.calc(8, 0, "/")); //exceção
+	} catch (IllegalArgumentException e) {
+		System.out.println(e.getMessage());
+	}
+	
+	try {
+		System.out.println(calc.calc(5, 5, "x")); //exceção
+	} catch (IllegalArgumentException e) {
+		System.out.println(e.getMessage());
+	}
 	}
 }
