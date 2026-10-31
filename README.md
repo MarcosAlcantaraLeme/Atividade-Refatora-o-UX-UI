@@ -256,9 +256,7 @@ Por fim, a atividade reforçou a importância dos testes de software, da documen
 
 # 12. Repositório GitHub
 
-**Link do repositório:** 
-
-[INSERIR LINK DO REPOSITÓRIO GITHUB]
+[**Link do repositório:** ](https://github.com/MarcosAlcantaraLeme/Atividade-Refatora-o-UX-UI)
 
 ---
 
